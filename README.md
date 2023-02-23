@@ -51,4 +51,35 @@ Airflow, executando a dag:
 
 * get_stocks.py
 
+### Fase 3
+
+Configurando o LocalExecutor
+
+```bash
+$ sudo apt install postgresql postgresql-contrib
+$ sudo -i -u postgres
+$ createdb airflow_db
+$ psql airflow_db
+> CREATE USER airflow_user WITH PASSWORD 'airflow_pass';
+> GRANT ALL PRIVILEGES ON DATABASE airflow_db TO airflow_user;
+```
+
+Configurando o **airflow.cfg**
+
+```
+# linha 24
+executor = LocalExecutor
+
+# linha 186
+sql_alchemy_conn = postgresql+psycopg2://airflow_user:airflow_pass@localhost/airflow_db
+```
+
+Subindo o **Apache Airflow**
+
+```bash
+$ airflow db init
+$ airflow standalone
+```
+
+Execute novamente o get_stocks.py. Perceba que agora todas as stocks foram processados em paralelo.
 
