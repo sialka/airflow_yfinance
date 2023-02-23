@@ -38,10 +38,17 @@ $ python3 yfinanceTest2.py
 
 ### Fase 2
 
-Nesta fase as tarefas são executadas sequencialmente: busca os registro do ticker AAPL, depois GOOG, depois MSFL depois TSLA
+Nesta fase as tarefas são executadas sequencialmente: 
+
+* busca os registro do ticker AAPL, 
+* depois GOOG, 
+* depois MSFL 
+* depois TSLA
+
+A cada execusão os registros são salvos no formato .csv em /test/stocks
 
 Airflow, executando a dag:
 
 * get_stocks.py
 
-A cada execusão registra os csv em /test/stocks
+
