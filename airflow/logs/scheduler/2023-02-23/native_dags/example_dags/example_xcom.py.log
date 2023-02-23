@@ -1,0 +1,109 @@
+[2023-02-23 12:00:23,342] {processor.py:153} INFO - Started process (PID=50474) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:00:23,343] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-23 12:00:23,343] {logging_mixin.py:115} INFO - [2023-02-23 12:00:23,343] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:00:23,352] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:00:23,383] {logging_mixin.py:115} INFO - [2023-02-23 12:00:23,383] {manager.py:508} INFO - Created Permission View: can read on DAG:example_xcom
+[2023-02-23 12:00:23,388] {logging_mixin.py:115} INFO - [2023-02-23 12:00:23,388] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_xcom
+[2023-02-23 12:00:23,392] {logging_mixin.py:115} INFO - [2023-02-23 12:00:23,392] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_xcom
+[2023-02-23 12:00:23,392] {logging_mixin.py:115} INFO - [2023-02-23 12:00:23,392] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:00:23,396] {logging_mixin.py:115} INFO - [2023-02-23 12:00:23,396] {dag.py:2398} INFO - Creating ORM DAG for example_xcom
+[2023-02-23 12:00:23,400] {logging_mixin.py:115} INFO - [2023-02-23 12:00:23,400] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-02-23 12:00:23,409] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.068 seconds
+[2023-02-23 12:00:56,378] {processor.py:153} INFO - Started process (PID=50512) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:00:56,378] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-23 12:00:56,379] {logging_mixin.py:115} INFO - [2023-02-23 12:00:56,379] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:00:56,388] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:00:56,410] {logging_mixin.py:115} INFO - [2023-02-23 12:00:56,410] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:00:56,418] {logging_mixin.py:115} INFO - [2023-02-23 12:00:56,418] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-02-23 12:00:56,425] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.048 seconds
+[2023-02-23 12:01:28,864] {processor.py:153} INFO - Started process (PID=50547) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:01:28,865] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-23 12:01:28,865] {logging_mixin.py:115} INFO - [2023-02-23 12:01:28,865] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:01:28,874] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:01:28,896] {logging_mixin.py:115} INFO - [2023-02-23 12:01:28,896] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:01:28,903] {logging_mixin.py:115} INFO - [2023-02-23 12:01:28,903] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-02-23 12:01:28,910] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.047 seconds
+[2023-02-23 12:02:00,776] {processor.py:153} INFO - Started process (PID=50925) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:02:00,777] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-23 12:02:00,777] {logging_mixin.py:115} INFO - [2023-02-23 12:02:00,777] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:02:00,788] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:02:00,821] {logging_mixin.py:115} INFO - [2023-02-23 12:02:00,820] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:02:00,829] {logging_mixin.py:115} INFO - [2023-02-23 12:02:00,829] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-02-23 12:02:00,841] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.067 seconds
+[2023-02-23 12:02:33,808] {processor.py:153} INFO - Started process (PID=51006) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:02:33,808] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-23 12:02:33,809] {logging_mixin.py:115} INFO - [2023-02-23 12:02:33,809] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:02:33,818] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:02:33,844] {logging_mixin.py:115} INFO - [2023-02-23 12:02:33,844] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:02:33,852] {logging_mixin.py:115} INFO - [2023-02-23 12:02:33,852] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-02-23 12:02:33,858] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.052 seconds
+[2023-02-23 12:03:08,501] {processor.py:153} INFO - Started process (PID=51077) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:03:08,503] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-23 12:03:08,503] {logging_mixin.py:115} INFO - [2023-02-23 12:03:08,503] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:03:08,512] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:03:08,520] {logging_mixin.py:115} INFO - [2023-02-23 12:03:08,520] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:03:08,528] {logging_mixin.py:115} INFO - [2023-02-23 12:03:08,528] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-02-23 12:03:08,534] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.034 seconds
+[2023-02-23 12:03:39,278] {processor.py:153} INFO - Started process (PID=51134) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:03:39,278] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-23 12:03:39,278] {logging_mixin.py:115} INFO - [2023-02-23 12:03:39,278] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:03:39,287] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:03:39,309] {logging_mixin.py:115} INFO - [2023-02-23 12:03:39,309] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:03:39,317] {logging_mixin.py:115} INFO - [2023-02-23 12:03:39,317] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-02-23 12:03:39,324] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.048 seconds
+[2023-02-23 12:04:13,079] {processor.py:153} INFO - Started process (PID=51199) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:04:13,080] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-23 12:04:13,080] {logging_mixin.py:115} INFO - [2023-02-23 12:04:13,080] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:04:13,089] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:04:13,098] {logging_mixin.py:115} INFO - [2023-02-23 12:04:13,098] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:04:13,107] {logging_mixin.py:115} INFO - [2023-02-23 12:04:13,107] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-02-23 12:04:13,114] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.036 seconds
+[2023-02-23 12:04:46,966] {processor.py:153} INFO - Started process (PID=51257) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:04:46,967] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-23 12:04:46,967] {logging_mixin.py:115} INFO - [2023-02-23 12:04:46,967] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:04:46,976] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:04:46,997] {logging_mixin.py:115} INFO - [2023-02-23 12:04:46,997] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:04:47,004] {logging_mixin.py:115} INFO - [2023-02-23 12:04:47,004] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-02-23 12:04:47,011] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.046 seconds
+[2023-02-23 12:05:19,991] {processor.py:153} INFO - Started process (PID=51323) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:05:19,992] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-23 12:05:19,992] {logging_mixin.py:115} INFO - [2023-02-23 12:05:19,992] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:05:20,001] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:05:20,023] {logging_mixin.py:115} INFO - [2023-02-23 12:05:20,023] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:05:20,030] {logging_mixin.py:115} INFO - [2023-02-23 12:05:20,030] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-02-23 12:05:20,036] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.047 seconds
+[2023-02-23 12:05:52,988] {processor.py:153} INFO - Started process (PID=51392) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:05:52,989] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-23 12:05:52,989] {logging_mixin.py:115} INFO - [2023-02-23 12:05:52,989] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:05:52,998] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:05:53,006] {logging_mixin.py:115} INFO - [2023-02-23 12:05:53,006] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:05:53,014] {logging_mixin.py:115} INFO - [2023-02-23 12:05:53,014] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-02-23 12:05:53,020] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.033 seconds
+[2023-02-23 12:06:24,401] {processor.py:153} INFO - Started process (PID=51451) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:06:24,402] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-23 12:06:24,402] {logging_mixin.py:115} INFO - [2023-02-23 12:06:24,402] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:06:24,411] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:06:24,418] {logging_mixin.py:115} INFO - [2023-02-23 12:06:24,418] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:06:24,427] {logging_mixin.py:115} INFO - [2023-02-23 12:06:24,427] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-02-23 12:06:24,433] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.033 seconds
+[2023-02-23 12:06:55,177] {processor.py:153} INFO - Started process (PID=51519) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:06:55,178] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-23 12:06:55,178] {logging_mixin.py:115} INFO - [2023-02-23 12:06:55,178] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:06:55,187] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:06:55,194] {logging_mixin.py:115} INFO - [2023-02-23 12:06:55,194] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:06:55,203] {logging_mixin.py:115} INFO - [2023-02-23 12:06:55,202] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-02-23 12:06:55,210] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.034 seconds
+[2023-02-23 12:07:28,826] {processor.py:153} INFO - Started process (PID=51586) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:07:28,827] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-23 12:07:28,827] {logging_mixin.py:115} INFO - [2023-02-23 12:07:28,827] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:07:28,836] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:07:28,844] {logging_mixin.py:115} INFO - [2023-02-23 12:07:28,844] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:07:28,852] {logging_mixin.py:115} INFO - [2023-02-23 12:07:28,852] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-02-23 12:07:28,858] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.033 seconds
+[2023-02-23 12:08:02,964] {processor.py:153} INFO - Started process (PID=51646) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:08:02,965] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-02-23 12:08:02,965] {logging_mixin.py:115} INFO - [2023-02-23 12:08:02,965] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:08:02,975] {processor.py:651} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py
+[2023-02-23 12:08:02,999] {logging_mixin.py:115} INFO - [2023-02-23 12:08:02,999] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:08:03,007] {logging_mixin.py:115} INFO - [2023-02-23 12:08:03,007] {dag.py:2927} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-02-23 12:08:03,015] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py took 0.052 seconds

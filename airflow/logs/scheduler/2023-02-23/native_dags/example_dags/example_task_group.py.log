@@ -1,0 +1,116 @@
+[2023-02-23 12:00:21,591] {processor.py:153} INFO - Started process (PID=50471) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:00:21,591] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-02-23 12:00:21,592] {logging_mixin.py:115} INFO - [2023-02-23 12:00:21,592] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:00:21,595] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:00:21,625] {logging_mixin.py:115} INFO - [2023-02-23 12:00:21,625] {manager.py:508} INFO - Created Permission View: can read on DAG:example_task_group
+[2023-02-23 12:00:21,631] {logging_mixin.py:115} INFO - [2023-02-23 12:00:21,631] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_task_group
+[2023-02-23 12:00:21,634] {logging_mixin.py:115} INFO - [2023-02-23 12:00:21,634] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_task_group
+[2023-02-23 12:00:21,634] {logging_mixin.py:115} INFO - [2023-02-23 12:00:21,634] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:00:21,638] {logging_mixin.py:115} INFO - [2023-02-23 12:00:21,638] {dag.py:2398} INFO - Creating ORM DAG for example_task_group
+[2023-02-23 12:00:21,642] {logging_mixin.py:115} INFO - [2023-02-23 12:00:21,642] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-02-22T20:00:21.642625+00:00, run_after=2023-02-23T20:00:21.642625+00:00
+[2023-02-23 12:00:21,650] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.060 seconds
+[2023-02-23 12:00:53,233] {processor.py:153} INFO - Started process (PID=50509) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:00:53,233] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-02-23 12:00:53,233] {logging_mixin.py:115} INFO - [2023-02-23 12:00:53,233] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:00:53,237] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:00:53,245] {logging_mixin.py:115} INFO - [2023-02-23 12:00:53,245] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:00:53,253] {logging_mixin.py:115} INFO - [2023-02-23 12:00:53,253] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-02-22T20:00:53.253571+00:00, run_after=2023-02-23T20:00:53.253571+00:00
+[2023-02-23 12:00:53,260] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.029 seconds
+[2023-02-23 12:01:26,035] {processor.py:153} INFO - Started process (PID=50544) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:01:26,036] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-02-23 12:01:26,036] {logging_mixin.py:115} INFO - [2023-02-23 12:01:26,036] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:01:26,040] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:01:26,048] {logging_mixin.py:115} INFO - [2023-02-23 12:01:26,048] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:01:26,056] {logging_mixin.py:115} INFO - [2023-02-23 12:01:26,056] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-02-22T20:01:26.056388+00:00, run_after=2023-02-23T20:01:26.056388+00:00
+[2023-02-23 12:01:26,062] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.028 seconds
+[2023-02-23 12:01:59,036] {processor.py:153} INFO - Started process (PID=50922) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:01:59,036] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-02-23 12:01:59,037] {logging_mixin.py:115} INFO - [2023-02-23 12:01:59,037] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:01:59,040] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:01:59,049] {logging_mixin.py:115} INFO - [2023-02-23 12:01:59,049] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:01:59,059] {logging_mixin.py:115} INFO - [2023-02-23 12:01:59,058] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-02-22T20:01:59.058771+00:00, run_after=2023-02-23T20:01:59.058771+00:00
+[2023-02-23 12:01:59,065] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.031 seconds
+[2023-02-23 12:02:30,741] {processor.py:153} INFO - Started process (PID=50996) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:02:30,742] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-02-23 12:02:30,742] {logging_mixin.py:115} INFO - [2023-02-23 12:02:30,742] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:02:30,745] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:02:30,753] {logging_mixin.py:115} INFO - [2023-02-23 12:02:30,753] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:02:30,764] {logging_mixin.py:115} INFO - [2023-02-23 12:02:30,764] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-02-22T20:02:30.764342+00:00, run_after=2023-02-23T20:02:30.764342+00:00
+[2023-02-23 12:02:30,774] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.034 seconds
+[2023-02-23 12:03:05,620] {processor.py:153} INFO - Started process (PID=51072) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:03:05,621] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-02-23 12:03:05,621] {logging_mixin.py:115} INFO - [2023-02-23 12:03:05,621] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:03:05,624] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:03:05,632] {logging_mixin.py:115} INFO - [2023-02-23 12:03:05,632] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:03:05,641] {logging_mixin.py:115} INFO - [2023-02-23 12:03:05,641] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-02-22T20:03:05.640863+00:00, run_after=2023-02-23T20:03:05.640863+00:00
+[2023-02-23 12:03:05,647] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.028 seconds
+[2023-02-23 12:03:36,399] {processor.py:153} INFO - Started process (PID=51127) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:03:36,399] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-02-23 12:03:36,399] {logging_mixin.py:115} INFO - [2023-02-23 12:03:36,399] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:03:36,402] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:03:36,411] {logging_mixin.py:115} INFO - [2023-02-23 12:03:36,411] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:03:36,419] {logging_mixin.py:115} INFO - [2023-02-23 12:03:36,419] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-02-22T20:03:36.419681+00:00, run_after=2023-02-23T20:03:36.419681+00:00
+[2023-02-23 12:03:36,426] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.029 seconds
+[2023-02-23 12:04:09,702] {processor.py:153} INFO - Started process (PID=51192) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:04:09,702] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-02-23 12:04:09,702] {logging_mixin.py:115} INFO - [2023-02-23 12:04:09,702] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:04:09,706] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:04:09,714] {logging_mixin.py:115} INFO - [2023-02-23 12:04:09,714] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:04:09,724] {logging_mixin.py:115} INFO - [2023-02-23 12:04:09,724] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-02-22T20:04:09.724142+00:00, run_after=2023-02-23T20:04:09.724142+00:00
+[2023-02-23 12:04:09,731] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.031 seconds
+[2023-02-23 12:04:44,458] {processor.py:153} INFO - Started process (PID=51254) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:04:44,459] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-02-23 12:04:44,459] {logging_mixin.py:115} INFO - [2023-02-23 12:04:44,459] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:04:44,463] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:04:44,471] {logging_mixin.py:115} INFO - [2023-02-23 12:04:44,471] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:04:44,479] {logging_mixin.py:115} INFO - [2023-02-23 12:04:44,479] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-02-22T20:04:44.479570+00:00, run_after=2023-02-23T20:04:44.479570+00:00
+[2023-02-23 12:04:44,486] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.029 seconds
+[2023-02-23 12:05:16,616] {processor.py:153} INFO - Started process (PID=51316) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:05:16,617] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-02-23 12:05:16,617] {logging_mixin.py:115} INFO - [2023-02-23 12:05:16,617] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:05:16,621] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:05:16,629] {logging_mixin.py:115} INFO - [2023-02-23 12:05:16,629] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:05:16,637] {logging_mixin.py:115} INFO - [2023-02-23 12:05:16,637] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-02-22T20:05:16.637467+00:00, run_after=2023-02-23T20:05:16.637467+00:00
+[2023-02-23 12:05:16,644] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.029 seconds
+[2023-02-23 12:05:50,746] {processor.py:153} INFO - Started process (PID=51384) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:05:50,746] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-02-23 12:05:50,747] {logging_mixin.py:115} INFO - [2023-02-23 12:05:50,747] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:05:50,750] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:05:50,759] {logging_mixin.py:115} INFO - [2023-02-23 12:05:50,759] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:05:50,767] {logging_mixin.py:115} INFO - [2023-02-23 12:05:50,767] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-02-22T20:05:50.767268+00:00, run_after=2023-02-23T20:05:50.767268+00:00
+[2023-02-23 12:05:50,773] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.029 seconds
+[2023-02-23 12:06:21,518] {processor.py:153} INFO - Started process (PID=51444) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:06:21,519] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-02-23 12:06:21,519] {logging_mixin.py:115} INFO - [2023-02-23 12:06:21,519] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:06:21,523] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:06:21,531] {logging_mixin.py:115} INFO - [2023-02-23 12:06:21,531] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:06:21,539] {logging_mixin.py:115} INFO - [2023-02-23 12:06:21,539] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-02-22T20:06:21.539790+00:00, run_after=2023-02-23T20:06:21.539790+00:00
+[2023-02-23 12:06:21,546] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.029 seconds
+[2023-02-23 12:06:52,525] {processor.py:153} INFO - Started process (PID=51512) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:06:52,526] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-02-23 12:06:52,526] {logging_mixin.py:115} INFO - [2023-02-23 12:06:52,526] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:06:52,529] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:06:52,537] {logging_mixin.py:115} INFO - [2023-02-23 12:06:52,537] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:06:52,546] {logging_mixin.py:115} INFO - [2023-02-23 12:06:52,546] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-02-22T20:06:52.545961+00:00, run_after=2023-02-23T20:06:52.545961+00:00
+[2023-02-23 12:06:52,552] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.028 seconds
+[2023-02-23 12:07:25,951] {processor.py:153} INFO - Started process (PID=51578) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:07:25,952] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-02-23 12:07:25,952] {logging_mixin.py:115} INFO - [2023-02-23 12:07:25,952] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:07:25,956] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:07:25,965] {logging_mixin.py:115} INFO - [2023-02-23 12:07:25,965] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:07:25,973] {logging_mixin.py:115} INFO - [2023-02-23 12:07:25,973] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-02-22T20:07:25.973467+00:00, run_after=2023-02-23T20:07:25.973467+00:00
+[2023-02-23 12:07:25,980] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.030 seconds
+[2023-02-23 12:07:58,715] {processor.py:153} INFO - Started process (PID=51642) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:07:58,716] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-02-23 12:07:58,716] {logging_mixin.py:115} INFO - [2023-02-23 12:07:58,716] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:07:58,719] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:07:58,728] {logging_mixin.py:115} INFO - [2023-02-23 12:07:58,728] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:07:58,738] {logging_mixin.py:115} INFO - [2023-02-23 12:07:58,737] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-02-22T20:07:58.737782+00:00, run_after=2023-02-23T20:07:58.737782+00:00
+[2023-02-23 12:07:58,745] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.031 seconds
+[2023-02-23 12:08:30,362] {processor.py:153} INFO - Started process (PID=51697) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:08:30,363] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-02-23 12:08:30,363] {logging_mixin.py:115} INFO - [2023-02-23 12:08:30,363] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:08:30,367] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py
+[2023-02-23 12:08:30,375] {logging_mixin.py:115} INFO - [2023-02-23 12:08:30,375] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:08:30,384] {logging_mixin.py:115} INFO - [2023-02-23 12:08:30,384] {dag.py:2927} INFO - Setting next_dagrun for example_task_group to 2023-02-22T20:08:30.384350+00:00, run_after=2023-02-23T20:08:30.384350+00:00
+[2023-02-23 12:08:30,390] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py took 0.029 seconds

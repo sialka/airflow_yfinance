@@ -1,0 +1,75 @@
+[2023-02-23 12:00:33,601] {processor.py:153} INFO - Started process (PID=50487) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:00:33,601] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-02-23 12:00:33,601] {logging_mixin.py:115} INFO - [2023-02-23 12:00:33,601] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:00:33,602] {processor.py:653} WARNING - No viable dags retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:00:33,607] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.008 seconds
+[2023-02-23 12:01:07,767] {processor.py:153} INFO - Started process (PID=50524) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:01:07,768] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-02-23 12:01:07,768] {logging_mixin.py:115} INFO - [2023-02-23 12:01:07,768] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:01:07,769] {processor.py:653} WARNING - No viable dags retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:01:07,774] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.008 seconds
+[2023-02-23 12:01:40,115] {processor.py:153} INFO - Started process (PID=50856) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:01:40,115] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-02-23 12:01:40,115] {logging_mixin.py:115} INFO - [2023-02-23 12:01:40,115] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:01:40,116] {processor.py:653} WARNING - No viable dags retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:01:40,122] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.009 seconds
+[2023-02-23 12:02:11,032] {processor.py:153} INFO - Started process (PID=50957) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:02:11,033] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-02-23 12:02:11,033] {logging_mixin.py:115} INFO - [2023-02-23 12:02:11,033] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:02:11,033] {processor.py:653} WARNING - No viable dags retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:02:11,039] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.008 seconds
+[2023-02-23 12:02:46,313] {processor.py:153} INFO - Started process (PID=51032) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:02:46,315] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-02-23 12:02:46,315] {logging_mixin.py:115} INFO - [2023-02-23 12:02:46,315] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:02:46,316] {processor.py:653} WARNING - No viable dags retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:02:46,321] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.009 seconds
+[2023-02-23 12:03:20,241] {processor.py:153} INFO - Started process (PID=51092) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:03:20,242] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-02-23 12:03:20,242] {logging_mixin.py:115} INFO - [2023-02-23 12:03:20,242] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:03:20,243] {processor.py:653} WARNING - No viable dags retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:03:20,248] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.008 seconds
+[2023-02-23 12:03:51,745] {processor.py:153} INFO - Started process (PID=51155) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:03:51,745] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-02-23 12:03:51,745] {logging_mixin.py:115} INFO - [2023-02-23 12:03:51,745] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:03:51,746] {processor.py:653} WARNING - No viable dags retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:03:51,751] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.008 seconds
+[2023-02-23 12:04:27,081] {processor.py:153} INFO - Started process (PID=51221) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:04:27,082] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-02-23 12:04:27,082] {logging_mixin.py:115} INFO - [2023-02-23 12:04:27,082] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:04:27,083] {processor.py:653} WARNING - No viable dags retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:04:27,088] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.008 seconds
+[2023-02-23 12:05:00,100] {processor.py:153} INFO - Started process (PID=51283) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:05:00,100] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-02-23 12:05:00,100] {logging_mixin.py:115} INFO - [2023-02-23 12:05:00,100] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:05:00,101] {processor.py:653} WARNING - No viable dags retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:05:00,106] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.008 seconds
+[2023-02-23 12:05:32,735] {processor.py:153} INFO - Started process (PID=51345) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:05:32,735] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-02-23 12:05:32,735] {logging_mixin.py:115} INFO - [2023-02-23 12:05:32,735] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:05:32,736] {processor.py:653} WARNING - No viable dags retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:05:32,741] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.008 seconds
+[2023-02-23 12:06:06,484] {processor.py:153} INFO - Started process (PID=51415) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:06:06,485] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-02-23 12:06:06,485] {logging_mixin.py:115} INFO - [2023-02-23 12:06:06,485] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:06:06,486] {processor.py:653} WARNING - No viable dags retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:06:06,491] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.008 seconds
+[2023-02-23 12:06:37,533] {processor.py:153} INFO - Started process (PID=51484) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:06:37,533] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-02-23 12:06:37,534] {logging_mixin.py:115} INFO - [2023-02-23 12:06:37,534] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:06:37,535] {processor.py:653} WARNING - No viable dags retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:06:37,540] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.009 seconds
+[2023-02-23 12:07:10,565] {processor.py:153} INFO - Started process (PID=51547) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:07:10,565] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-02-23 12:07:10,566] {logging_mixin.py:115} INFO - [2023-02-23 12:07:10,565] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:07:10,566] {processor.py:653} WARNING - No viable dags retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:07:10,571] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.007 seconds
+[2023-02-23 12:07:44,184] {processor.py:153} INFO - Started process (PID=51614) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:07:44,184] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-02-23 12:07:44,184] {logging_mixin.py:115} INFO - [2023-02-23 12:07:44,184] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:07:44,185] {processor.py:653} WARNING - No viable dags retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:07:44,191] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.008 seconds
+[2023-02-23 12:08:16,105] {processor.py:153} INFO - Started process (PID=51674) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:08:16,105] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-02-23 12:08:16,106] {logging_mixin.py:115} INFO - [2023-02-23 12:08:16,106] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:08:16,106] {processor.py:653} WARNING - No viable dags retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-02-23 12:08:16,112] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.009 seconds

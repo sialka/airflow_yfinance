@@ -1,0 +1,705 @@
+[2023-02-23 12:00:08,073] {manager.py:480} INFO - Processing files using up to 1 processes at a time 
+[2023-02-23 12:00:08,073] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-02-23 12:00:08,073] {manager.py:482} INFO - Checking for new files in /home/alura/Documents/Financeiro/airflow/dags every 300 seconds
+[2023-02-23 12:00:08,073] {manager.py:690} INFO - Searching for files in /home/alura/Documents/Financeiro/airflow/dags
+[2023-02-23 12:00:08,078] {manager.py:693} INFO - There are 34 files in /home/alura/Documents/Financeiro/airflow/dags
+[2023-02-23 12:00:08,207] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.10s           2023-02-23T20:00:08
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+================================================================================
+[2023-02-23 12:00:38,438] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.10s           2023-02-23T20:00:08
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-02-23T20:00:14
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2023-02-23T20:00:24
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2023-02-23T20:00:33
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-02-23T20:00:33
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.20s           2023-02-23T20:00:09
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-02-23T20:00:10
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-02-23T20:00:11
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-02-23T20:00:12
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-02-23T20:00:13
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.10s           2023-02-23T20:00:15
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2023-02-23T20:00:16
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2023-02-23T20:00:17
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2023-02-23T20:00:18
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-02-23T20:00:20
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-02-23T20:00:21
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2023-02-23T20:00:22
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.10s           2023-02-23T20:00:34
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-02-23T20:00:23
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-02-23T20:00:25
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.10s           2023-02-23T20:00:26
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2023-02-23T20:00:27
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2023-02-23T20:00:28
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-02-23T20:00:28
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-02-23T20:00:29
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-02-23T20:00:30
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2023-02-23T20:00:35
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2023-02-23T20:00:37
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2023-02-23T20:00:31
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2023-02-23T20:00:38
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.10s           2023-02-23T20:00:38
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2023-02-23T20:00:18
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-02-23T20:00:19
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-02-23T20:00:23
+================================================================================
+[2023-02-23 12:01:08,461] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.10s           2023-02-23T20:00:38
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-02-23T20:00:45
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2023-02-23T20:00:57
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2023-02-23T20:01:06
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-02-23T20:01:07
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2023-02-23T20:00:39
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-02-23T20:00:41
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-02-23T20:00:42
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-02-23T20:00:43
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-02-23T20:00:43
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.10s           2023-02-23T20:00:46
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2023-02-23T20:00:47
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2023-02-23T20:00:48
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2023-02-23T20:00:49
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-02-23T20:00:52
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-02-23T20:00:53
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2023-02-23T20:00:54
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.10s           2023-02-23T20:01:08
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-02-23T20:00:56
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-02-23T20:00:58
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.10s           2023-02-23T20:00:59
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2023-02-23T20:01:00
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2023-02-23T20:01:01
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-02-23T20:01:02
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-02-23T20:01:03
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-02-23T20:01:04
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2023-02-23T20:00:35
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2023-02-23T20:00:37
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2023-02-23T20:01:05
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2023-02-23T20:00:38
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.10s           2023-02-23T20:00:38
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2023-02-23T20:00:50
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-02-23T20:00:51
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-02-23T20:00:55
+================================================================================
+[2023-02-23 12:01:38,600] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.10s           2023-02-23T20:01:11
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-02-23T20:01:18
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2023-02-23T20:01:30
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2023-02-23T20:01:06
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-02-23T20:01:07
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2023-02-23T20:01:12
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-02-23T20:01:14
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-02-23T20:01:15
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-02-23T20:01:17
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-02-23T20:01:18
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.10s           2023-02-23T20:01:19
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2023-02-23T20:01:21
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2023-02-23T20:01:22
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2023-02-23T20:01:23
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-02-23T20:01:25
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-02-23T20:01:26
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2023-02-23T20:01:27
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.10s           2023-02-23T20:01:08
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-02-23T20:01:28
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-02-23T20:01:31
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.10s           2023-02-23T20:01:32
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.23s           2023-02-23T20:01:33
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2023-02-23T20:01:34
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-02-23T20:01:35
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-02-23T20:01:36
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-02-23T20:01:37
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2023-02-23T20:01:08
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2023-02-23T20:01:09
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2023-02-23T20:01:38
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2023-02-23T20:01:10
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.10s           2023-02-23T20:01:14
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2023-02-23T20:01:23
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-02-23T20:01:24
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-02-23T20:01:28
+================================================================================
+[2023-02-23 12:02:08,854] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.10s           2023-02-23T20:01:42
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-02-23T20:01:50
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2023-02-23T20:02:02
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2023-02-23T20:01:39
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-02-23T20:01:40
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2023-02-23T20:01:45
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-02-23T20:01:46
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-02-23T20:01:48
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-02-23T20:01:49
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-02-23T20:01:50
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.10s           2023-02-23T20:01:51
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2023-02-23T20:01:52
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2023-02-23T20:01:53
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2023-02-23T20:01:54
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-02-23T20:01:58
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-02-23T20:01:59
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2023-02-23T20:01:59
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.10s           2023-02-23T20:01:40
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-02-23T20:02:00
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-02-23T20:02:03
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.10s           2023-02-23T20:02:04
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2023-02-23T20:02:05
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2023-02-23T20:02:06
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-02-23T20:02:07
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-02-23T20:02:08
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-02-23T20:02:08
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2023-02-23T20:01:41
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2023-02-23T20:01:43
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2023-02-23T20:01:38
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2023-02-23T20:01:44
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.10s           2023-02-23T20:01:47
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2023-02-23T20:01:55
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-02-23T20:01:56
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-02-23T20:02:00
+================================================================================
+[2023-02-23 12:02:39,036] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.10s           2023-02-23T20:02:13
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-02-23T20:02:23
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2023-02-23T20:02:35
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2023-02-23T20:02:10
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-02-23T20:02:11
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2023-02-23T20:02:15
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-02-23T20:02:18
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-02-23T20:02:20
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-02-23T20:02:21
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-02-23T20:02:22
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.10s           2023-02-23T20:02:23
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2023-02-23T20:02:25
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2023-02-23T20:02:26
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2023-02-23T20:02:26
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-02-23T20:02:29
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-02-23T20:02:30
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2023-02-23T20:02:31
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.10s           2023-02-23T20:02:12
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-02-23T20:02:33
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-02-23T20:02:36
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.10s           2023-02-23T20:02:36
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2023-02-23T20:02:37
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2023-02-23T20:02:39
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-02-23T20:02:07
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-02-23T20:02:08
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-02-23T20:02:08
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2023-02-23T20:02:14
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2023-02-23T20:02:16
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2023-02-23T20:02:09
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2023-02-23T20:02:17
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.10s           2023-02-23T20:02:19
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2023-02-23T20:02:27
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-02-23T20:02:28
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-02-23T20:02:32
+================================================================================
+[2023-02-23 12:03:09,295] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.10s           2023-02-23T20:02:44
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-02-23T20:02:57
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2023-02-23T20:03:09
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2023-02-23T20:02:45
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-02-23T20:02:46
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2023-02-23T20:02:48
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-02-23T20:02:52
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-02-23T20:02:53
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-02-23T20:02:54
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-02-23T20:02:56
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.10s           2023-02-23T20:02:58
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2023-02-23T20:02:59
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2023-02-23T20:03:00
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2023-02-23T20:03:01
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-02-23T20:03:04
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-02-23T20:03:05
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2023-02-23T20:03:06
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.10s           2023-02-23T20:02:47
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-02-23T20:03:08
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-02-23T20:02:36
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.10s           2023-02-23T20:02:36
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2023-02-23T20:02:37
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2023-02-23T20:02:39
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-02-23T20:02:39
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-02-23T20:02:40
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-02-23T20:02:41
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2023-02-23T20:02:49
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2023-02-23T20:02:49
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2023-02-23T20:02:43
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2023-02-23T20:02:51
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.10s           2023-02-23T20:02:55
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2023-02-23T20:03:02
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-02-23T20:03:03
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-02-23T20:03:07
+================================================================================
+[2023-02-23 12:03:39,378] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.10s           2023-02-23T20:03:15
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-02-23T20:03:29
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2023-02-23T20:03:09
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2023-02-23T20:03:18
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-02-23T20:03:20
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2023-02-23T20:03:19
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-02-23T20:03:22
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-02-23T20:03:25
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-02-23T20:03:26
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-02-23T20:03:27
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.10s           2023-02-23T20:03:30
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2023-02-23T20:03:30
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2023-02-23T20:03:31
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2023-02-23T20:03:32
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-02-23T20:03:35
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-02-23T20:03:36
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2023-02-23T20:03:37
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.10s           2023-02-23T20:03:21
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-02-23T20:03:39
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-02-23T20:03:10
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.10s           2023-02-23T20:03:11
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2023-02-23T20:03:12
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2023-02-23T20:03:12
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-02-23T20:03:13
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-02-23T20:03:14
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-02-23T20:03:17
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2023-02-23T20:03:22
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2023-02-23T20:03:23
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2023-02-23T20:03:17
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2023-02-23T20:03:24
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.10s           2023-02-23T20:03:27
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2023-02-23T20:03:33
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-02-23T20:03:34
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-02-23T20:03:38
+================================================================================
+[2023-02-23 12:04:09,801] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.10s           2023-02-23T20:03:46
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-02-23T20:04:01
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2023-02-23T20:03:39
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2023-02-23T20:03:49
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-02-23T20:03:51
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2023-02-23T20:03:50
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-02-23T20:03:52
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-02-23T20:03:55
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-02-23T20:03:58
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-02-23T20:03:59
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.10s           2023-02-23T20:04:03
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2023-02-23T20:04:03
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2023-02-23T20:04:05
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2023-02-23T20:04:06
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-02-23T20:04:09
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-02-23T20:04:09
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2023-02-23T20:03:37
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.10s           2023-02-23T20:03:53
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-02-23T20:03:39
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-02-23T20:03:40
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.10s           2023-02-23T20:03:41
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2023-02-23T20:03:42
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2023-02-23T20:03:43
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-02-23T20:03:44
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-02-23T20:03:45
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-02-23T20:03:47
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2023-02-23T20:03:54
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2023-02-23T20:03:56
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2023-02-23T20:03:48
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2023-02-23T20:03:58
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.10s           2023-02-23T20:04:00
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2023-02-23T20:04:07
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-02-23T20:04:08
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-02-23T20:03:38
+================================================================================
+[2023-02-23 12:04:40,055] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.10s           2023-02-23T20:04:20
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-02-23T20:04:35
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2023-02-23T20:04:14
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2023-02-23T20:04:24
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-02-23T20:04:27
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2023-02-23T20:04:24
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-02-23T20:04:26
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-02-23T20:04:30
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-02-23T20:04:31
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-02-23T20:04:32
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.10s           2023-02-23T20:04:36
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2023-02-23T20:04:37
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2023-02-23T20:04:39
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2023-02-23T20:04:40
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-02-23T20:04:09
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-02-23T20:04:09
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2023-02-23T20:04:10
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.10s           2023-02-23T20:04:28
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-02-23T20:04:13
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-02-23T20:04:15
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.10s           2023-02-23T20:04:16
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2023-02-23T20:04:17
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2023-02-23T20:04:18
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-02-23T20:04:19
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-02-23T20:04:21
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-02-23T20:04:22
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2023-02-23T20:04:29
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2023-02-23T20:04:33
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2023-02-23T20:04:23
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2023-02-23T20:04:34
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.10s           2023-02-23T20:04:39
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2023-02-23T20:04:07
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-02-23T20:04:08
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-02-23T20:04:12
+================================================================================
+[2023-02-23 12:05:08,081] {manager.py:690} INFO - Searching for files in /home/alura/Documents/Financeiro/airflow/dags
+[2023-02-23 12:05:08,084] {manager.py:693} INFO - There are 34 files in /home/alura/Documents/Financeiro/airflow/dags
+[2023-02-23 12:05:10,203] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.10s           2023-02-23T20:04:52
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-02-23T20:05:07
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2023-02-23T20:04:48
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2023-02-23T20:04:59
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-02-23T20:05:00
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2023-02-23T20:04:56
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-02-23T20:04:57
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-02-23T20:05:03
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-02-23T20:05:04
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-02-23T20:05:05
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.10s           2023-02-23T20:05:08
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2023-02-23T20:05:10
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2023-02-23T20:04:39
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2023-02-23T20:04:40
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-02-23T20:04:43
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-02-23T20:04:44
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2023-02-23T20:04:44
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.10s           2023-02-23T20:05:01
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-02-23T20:04:47
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-02-23T20:04:49
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.10s           2023-02-23T20:04:49
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2023-02-23T20:04:51
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2023-02-23T20:04:51
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-02-23T20:04:53
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-02-23T20:04:54
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-02-23T20:04:55
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2023-02-23T20:05:02
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2023-02-23T20:05:06
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2023-02-23T20:04:58
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2023-02-23T20:05:09
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.10s           2023-02-23T20:04:39
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2023-02-23T20:04:41
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-02-23T20:04:42
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-02-23T20:04:45
+================================================================================
+[2023-02-23 12:05:40,457] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.10s           2023-02-23T20:05:23
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-02-23T20:05:40
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2023-02-23T20:05:20
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2023-02-23T20:05:31
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-02-23T20:05:32
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2023-02-23T20:05:26
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-02-23T20:05:30
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-02-23T20:05:33
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-02-23T20:05:37
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-02-23T20:05:38
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.10s           2023-02-23T20:05:08
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2023-02-23T20:05:10
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2023-02-23T20:05:10
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2023-02-23T20:05:11
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-02-23T20:05:15
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-02-23T20:05:16
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2023-02-23T20:05:17
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.10s           2023-02-23T20:05:35
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-02-23T20:05:20
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-02-23T20:05:21
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.10s           2023-02-23T20:05:22
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2023-02-23T20:05:24
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2023-02-23T20:05:25
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-02-23T20:05:25
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-02-23T20:05:28
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-02-23T20:05:29
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2023-02-23T20:05:36
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2023-02-23T20:05:39
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2023-02-23T20:05:30
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2023-02-23T20:05:09
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.10s           2023-02-23T20:05:12
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2023-02-23T20:05:13
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-02-23T20:05:14
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-02-23T20:05:18
+================================================================================
+[2023-02-23 12:06:10,709] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.10s           2023-02-23T20:05:55
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-02-23T20:05:40
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2023-02-23T20:05:54
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2023-02-23T20:06:05
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-02-23T20:06:06
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2023-02-23T20:05:59
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-02-23T20:06:03
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-02-23T20:06:06
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-02-23T20:06:10
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-02-23T20:06:10
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.10s           2023-02-23T20:05:41
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2023-02-23T20:05:41
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2023-02-23T20:05:44
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2023-02-23T20:05:45
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-02-23T20:05:49
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-02-23T20:05:50
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2023-02-23T20:05:51
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.10s           2023-02-23T20:06:07
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-02-23T20:05:53
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-02-23T20:05:55
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.10s           2023-02-23T20:05:56
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2023-02-23T20:05:57
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2023-02-23T20:05:58
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-02-23T20:06:01
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-02-23T20:06:01
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-02-23T20:06:02
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2023-02-23T20:06:09
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2023-02-23T20:05:39
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2023-02-23T20:06:04
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2023-02-23T20:05:42
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.10s           2023-02-23T20:05:47
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2023-02-23T20:05:46
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-02-23T20:05:48
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-02-23T20:05:51
+================================================================================
+[2023-02-23 12:06:40,965] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.10s           2023-02-23T20:06:26
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-02-23T20:06:11
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2023-02-23T20:06:25
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2023-02-23T20:06:35
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-02-23T20:06:37
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2023-02-23T20:06:30
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-02-23T20:06:33
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-02-23T20:06:37
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-02-23T20:06:40
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-02-23T20:06:10
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.10s           2023-02-23T20:06:12
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2023-02-23T20:06:13
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2023-02-23T20:06:14
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2023-02-23T20:06:16
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-02-23T20:06:20
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-02-23T20:06:21
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2023-02-23T20:06:22
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.10s           2023-02-23T20:06:38
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-02-23T20:06:24
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-02-23T20:06:25
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.10s           2023-02-23T20:06:27
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2023-02-23T20:06:28
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2023-02-23T20:06:29
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-02-23T20:06:31
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-02-23T20:06:32
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-02-23T20:06:32
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2023-02-23T20:06:39
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2023-02-23T20:06:11
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2023-02-23T20:06:34
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2023-02-23T20:06:15
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.10s           2023-02-23T20:06:18
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2023-02-23T20:06:17
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-02-23T20:06:19
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-02-23T20:06:23
+================================================================================
+[2023-02-23 12:07:11,220] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.10s           2023-02-23T20:06:58
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-02-23T20:06:42
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2023-02-23T20:06:56
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2023-02-23T20:07:08
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-02-23T20:07:10
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2023-02-23T20:07:02
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-02-23T20:07:06
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-02-23T20:07:09
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-02-23T20:06:40
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-02-23T20:06:42
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.10s           2023-02-23T20:06:42
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2023-02-23T20:06:45
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2023-02-23T20:06:46
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2023-02-23T20:06:47
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-02-23T20:06:52
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-02-23T20:06:52
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2023-02-23T20:06:53
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.10s           2023-02-23T20:07:11
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-02-23T20:06:55
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-02-23T20:06:57
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.10s           2023-02-23T20:06:59
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2023-02-23T20:07:00
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2023-02-23T20:07:01
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-02-23T20:07:03
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-02-23T20:07:04
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-02-23T20:07:05
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2023-02-23T20:06:39
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2023-02-23T20:06:43
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2023-02-23T20:07:07
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2023-02-23T20:06:49
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.10s           2023-02-23T20:06:51
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2023-02-23T20:06:47
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-02-23T20:06:50
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-02-23T20:06:54
+================================================================================
+[2023-02-23 12:07:41,436] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.10s           2023-02-23T20:07:28
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-02-23T20:07:14
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2023-02-23T20:07:30
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2023-02-23T20:07:41
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-02-23T20:07:10
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2023-02-23T20:07:35
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-02-23T20:07:38
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-02-23T20:07:09
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-02-23T20:07:12
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-02-23T20:07:12
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.10s           2023-02-23T20:07:15
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2023-02-23T20:07:18
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2023-02-23T20:07:18
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2023-02-23T20:07:19
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-02-23T20:07:24
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-02-23T20:07:26
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2023-02-23T20:07:26
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.10s           2023-02-23T20:07:11
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-02-23T20:07:28
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-02-23T20:07:31
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.10s           2023-02-23T20:07:32
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2023-02-23T20:07:33
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2023-02-23T20:07:34
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-02-23T20:07:36
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-02-23T20:07:37
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-02-23T20:07:39
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2023-02-23T20:07:13
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2023-02-23T20:07:16
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2023-02-23T20:07:40
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2023-02-23T20:07:22
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.10s           2023-02-23T20:07:23
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2023-02-23T20:07:20
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-02-23T20:07:22
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-02-23T20:07:27
+================================================================================
+[2023-02-23 12:08:11,691] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.10s           2023-02-23T20:08:01
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-02-23T20:07:47
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2023-02-23T20:08:03
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2023-02-23T20:07:41
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-02-23T20:07:44
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2023-02-23T20:08:08
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-02-23T20:08:11
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-02-23T20:07:42
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-02-23T20:07:43
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-02-23T20:07:46
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.10s           2023-02-23T20:07:48
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2023-02-23T20:07:50
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2023-02-23T20:07:51
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2023-02-23T20:07:52
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-02-23T20:07:57
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-02-23T20:07:58
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2023-02-23T20:07:59
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.10s           2023-02-23T20:07:45
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-02-23T20:08:03
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.10s           2023-02-23T20:08:04
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.10s           2023-02-23T20:08:04
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2023-02-23T20:08:05
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2023-02-23T20:08:07
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-02-23T20:08:09
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-02-23T20:08:09
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-02-23T20:08:11
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2023-02-23T20:07:49
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2023-02-23T20:07:53
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.10s           2023-02-23T20:07:40
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2023-02-23T20:07:55
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.10s           2023-02-23T20:07:56
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2023-02-23T20:07:54
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-02-23T20:07:54
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-02-23T20:08:00
+================================================================================
+[2023-02-23 12:08:34,084] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
