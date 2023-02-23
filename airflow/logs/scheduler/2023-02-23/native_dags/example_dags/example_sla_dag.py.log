@@ -114,3 +114,10 @@
 [2023-02-23 12:08:27,862] {logging_mixin.py:115} INFO - [2023-02-23 12:08:27,862] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-02-23 12:08:27,874] {logging_mixin.py:115} INFO - [2023-02-23 12:08:27,874] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-02-23T20:06:00+00:00, run_after=2023-02-23T20:08:00+00:00
 [2023-02-23 12:08:27,883] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.040 seconds
+[2023-02-23 12:46:39,526] {processor.py:153} INFO - Started process (PID=52443) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-02-23 12:46:39,527] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-02-23 12:46:39,527] {logging_mixin.py:115} INFO - [2023-02-23 12:46:39,527] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-02-23 12:46:39,538] {processor.py:651} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-02-23 12:46:39,548] {logging_mixin.py:115} INFO - [2023-02-23 12:46:39,547] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:46:39,563] {logging_mixin.py:115} INFO - [2023-02-23 12:46:39,563] {dag.py:2927} INFO - Setting next_dagrun for example_sla_dag to 2023-02-23T20:44:00+00:00, run_after=2023-02-23T20:46:00+00:00
+[2023-02-23 12:46:39,573] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.049 seconds

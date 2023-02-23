@@ -703,3 +703,450 @@ File Path                                                                       
 /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-02-23T20:08:00
 ================================================================================
 [2023-02-23 12:08:34,084] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2023-02-23 12:46:26,011] {manager.py:480} INFO - Processing files using up to 1 processes at a time 
+[2023-02-23 12:46:26,011] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-02-23 12:46:26,012] {manager.py:482} INFO - Checking for new files in /home/alura/Documents/Financeiro/airflow/dags every 300 seconds
+[2023-02-23 12:46:26,012] {manager.py:690} INFO - Searching for files in /home/alura/Documents/Financeiro/airflow/dags
+[2023-02-23 12:46:26,016] {manager.py:693} INFO - There are 35 files in /home/alura/Documents/Financeiro/airflow/dags
+[2023-02-23 12:46:26,344] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                                                                                                 0           0  0.30s           2023-02-23T20:46:26
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0
+================================================================================
+[2023-02-23 12:46:56,369] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                                                                                                 0           0  0.30s           2023-02-23T20:46:26
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              0           0  0.10s           2023-02-23T20:46:27
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py                                 0           0  0.10s           2023-02-23T20:46:33
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0  0.10s           2023-02-23T20:46:43
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.10s           2023-02-23T20:46:51
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.10s           2023-02-23T20:46:52
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.10s           2023-02-23T20:46:28
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.10s           2023-02-23T20:46:29
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.10s           2023-02-23T20:46:30
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.10s           2023-02-23T20:46:31
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.10s           2023-02-23T20:46:32
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.10s           2023-02-23T20:46:34
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.10s           2023-02-23T20:46:35
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.10s           2023-02-23T20:46:36
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.10s           2023-02-23T20:46:36
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py                                                   1           0  0.10s           2023-02-23T20:46:39
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.10s           2023-02-23T20:46:40
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.10s           2023-02-23T20:46:41
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.10s           2023-02-23T20:46:53
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.10s           2023-02-23T20:46:42
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.12s           2023-02-23T20:46:44
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.10s           2023-02-23T20:46:45
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.10s           2023-02-23T20:46:46
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.10s           2023-02-23T20:46:46
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator_decorator.py                                 1           0  0.10s           2023-02-23T20:46:47
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.10s           2023-02-23T20:46:48
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.10s           2023-02-23T20:46:49
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.10s           2023-02-23T20:46:55
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.10s           2023-02-23T20:46:56
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.14s           2023-02-23T20:46:51
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.10s           2023-02-23T20:46:56
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2023-02-23T20:46:37
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.10s           2023-02-23T20:46:38
+/home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2023-02-23T20:46:41
+================================================================================
+[2023-02-23 12:47:06,191] {manager.py:462} INFO - Exiting gracefully upon receiving signal 15
+[2023-02-23 12:47:10,788] {manager.py:480} INFO - Processing files using up to 1 processes at a time 
+[2023-02-23 12:47:10,788] {manager.py:481} INFO - Process each file at most once every 30 seconds
+[2023-02-23 12:47:10,789] {manager.py:482} INFO - Checking for new files in /home/alura/Documents/Financeiro/airflow/dags every 300 seconds
+[2023-02-23 12:47:10,789] {manager.py:690} INFO - Searching for files in /home/alura/Documents/Financeiro/airflow/dags
+[2023-02-23 12:47:10,790] {manager.py:693} INFO - There are 1 files in /home/alura/Documents/Financeiro/airflow/dags
+[2023-02-23 12:47:11,233] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           0           0  0.41s           2023-02-23T20:47:11
+================================================================================
+[2023-02-23 12:47:42,381] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           0           0  0.41s           2023-02-23T20:47:42
+================================================================================
+[2023-02-23 12:48:13,480] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           0           0  0.30s           2023-02-23T20:48:13
+================================================================================
+[2023-02-23 12:48:44,711] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           0           0  0.31s           2023-02-23T20:48:44
+================================================================================
+[2023-02-23 12:49:15,703] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           0           1  0.10s           2023-02-23T20:49:15
+================================================================================
+[2023-02-23 12:49:45,889] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           0           1  0.10s           2023-02-23T20:49:45
+================================================================================
+[2023-02-23 12:50:16,382] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T20:50:16
+================================================================================
+[2023-02-23 12:50:47,398] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.31s           2023-02-23T20:50:47
+================================================================================
+[2023-02-23 12:51:20,211] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.31s           2023-02-23T20:51:20
+================================================================================
+[2023-02-23 12:51:52,771] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T20:51:52
+================================================================================
+[2023-02-23 12:52:16,818] {manager.py:690} INFO - Searching for files in /home/alura/Documents/Financeiro/airflow/dags
+[2023-02-23 12:52:16,819] {manager.py:693} INFO - There are 1 files in /home/alura/Documents/Financeiro/airflow/dags
+[2023-02-23 12:52:23,272] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T20:52:23
+================================================================================
+[2023-02-23 12:52:54,474] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T20:52:54
+================================================================================
+[2023-02-23 12:53:30,334] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.31s           2023-02-23T20:53:30
+================================================================================
+[2023-02-23 12:54:01,707] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.51s           2023-02-23T20:54:01
+================================================================================
+[2023-02-23 12:54:32,716] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.31s           2023-02-23T20:54:32
+================================================================================
+[2023-02-23 12:55:03,253] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T20:55:03
+================================================================================
+[2023-02-23 12:55:33,737] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T20:55:33
+================================================================================
+[2023-02-23 12:56:04,127] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.31s           2023-02-23T20:56:04
+================================================================================
+[2023-02-23 12:56:34,573] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.40s           2023-02-23T20:56:34
+================================================================================
+[2023-02-23 12:57:05,055] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.40s           2023-02-23T20:57:05
+================================================================================
+[2023-02-23 12:57:17,841] {manager.py:690} INFO - Searching for files in /home/alura/Documents/Financeiro/airflow/dags
+[2023-02-23 12:57:17,842] {manager.py:693} INFO - There are 1 files in /home/alura/Documents/Financeiro/airflow/dags
+[2023-02-23 12:57:35,540] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.40s           2023-02-23T20:57:35
+================================================================================
+[2023-02-23 12:58:06,016] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.40s           2023-02-23T20:58:06
+================================================================================
+[2023-02-23 12:58:37,261] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.40s           2023-02-23T20:58:37
+================================================================================
+[2023-02-23 12:59:07,716] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T20:59:07
+================================================================================
+[2023-02-23 12:59:38,173] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T20:59:38
+================================================================================
+[2023-02-23 13:00:08,630] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T21:00:08
+================================================================================
+[2023-02-23 13:00:39,087] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T21:00:39
+================================================================================
+[2023-02-23 13:01:09,542] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T21:01:09
+================================================================================
+[2023-02-23 13:01:39,898] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.31s           2023-02-23T21:01:39
+================================================================================
+[2023-02-23 13:02:10,352] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T21:02:10
+================================================================================
+[2023-02-23 13:02:18,187] {manager.py:690} INFO - Searching for files in /home/alura/Documents/Financeiro/airflow/dags
+[2023-02-23 13:02:18,188] {manager.py:693} INFO - There are 1 files in /home/alura/Documents/Financeiro/airflow/dags
+[2023-02-23 13:02:40,811] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.40s           2023-02-23T21:02:40
+================================================================================
+[2023-02-23 13:03:11,268] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T21:03:11
+================================================================================
+[2023-02-23 13:03:41,631] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.31s           2023-02-23T21:03:41
+================================================================================
+[2023-02-23 13:04:12,087] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T21:04:12
+================================================================================
+[2023-02-23 13:04:42,541] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T21:04:42
+================================================================================
+[2023-02-23 13:05:12,994] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T21:05:12
+================================================================================
+[2023-02-23 13:05:43,449] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.40s           2023-02-23T21:05:43
+================================================================================
+[2023-02-23 13:06:13,918] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.40s           2023-02-23T21:06:13
+================================================================================
+[2023-02-23 13:06:44,379] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T21:06:44
+================================================================================
+[2023-02-23 13:07:14,843] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T21:07:14
+================================================================================
+[2023-02-23 13:07:18,913] {manager.py:690} INFO - Searching for files in /home/alura/Documents/Financeiro/airflow/dags
+[2023-02-23 13:07:18,914] {manager.py:693} INFO - There are 1 files in /home/alura/Documents/Financeiro/airflow/dags
+[2023-02-23 13:07:45,306] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T21:07:45
+================================================================================
+[2023-02-23 13:08:15,771] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T21:08:15
+================================================================================
+[2023-02-23 13:08:46,236] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/alura/Documents/Financeiro/airflow/dags/get_stocks.py                           1           0  0.41s           2023-02-23T21:08:46
+================================================================================

@@ -114,3 +114,17 @@
 [2023-02-23 12:08:13,449] {logging_mixin.py:115} INFO - [2023-02-23 12:08:13,449] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-02-23 12:08:13,457] {logging_mixin.py:115} INFO - [2023-02-23 12:08:13,457] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-02-22T20:08:13.457227+00:00, run_after=2023-02-23T20:08:13.457227+00:00
 [2023-02-23 12:08:13,463] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.030 seconds
+[2023-02-23 12:46:30,757] {processor.py:153} INFO - Started process (PID=52425) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-02-23 12:46:30,758] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-02-23 12:46:30,758] {logging_mixin.py:115} INFO - [2023-02-23 12:46:30,758] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-02-23 12:46:30,763] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-02-23 12:46:30,771] {logging_mixin.py:115} INFO - [2023-02-23 12:46:30,771] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:46:30,779] {logging_mixin.py:115} INFO - [2023-02-23 12:46:30,779] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-02-22T20:46:30.779743+00:00, run_after=2023-02-23T20:46:30.779743+00:00
+[2023-02-23 12:46:30,786] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.030 seconds
+[2023-02-23 12:47:01,810] {processor.py:153} INFO - Started process (PID=52498) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-02-23 12:47:01,811] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2023-02-23 12:47:01,811] {logging_mixin.py:115} INFO - [2023-02-23 12:47:01,811] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-02-23 12:47:01,817] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2023-02-23 12:47:01,830] {logging_mixin.py:115} INFO - [2023-02-23 12:47:01,830] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:47:01,852] {logging_mixin.py:115} INFO - [2023-02-23 12:47:01,851] {dag.py:2927} INFO - Setting next_dagrun for example_short_circuit_operator to 2023-02-22T20:47:01.851721+00:00, run_after=2023-02-23T20:47:01.851721+00:00
+[2023-02-23 12:47:01,863] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.055 seconds

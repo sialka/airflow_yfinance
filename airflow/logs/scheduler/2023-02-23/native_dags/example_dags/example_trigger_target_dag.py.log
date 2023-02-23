@@ -107,3 +107,10 @@
 [2023-02-23 12:08:09,861] {logging_mixin.py:115} INFO - [2023-02-23 12:08:09,861] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-02-23 12:08:09,870] {logging_mixin.py:115} INFO - [2023-02-23 12:08:09,870] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
 [2023-02-23 12:08:09,876] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.033 seconds
+[2023-02-23 12:46:48,676] {processor.py:153} INFO - Started process (PID=52474) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-02-23 12:46:48,676] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-02-23 12:46:48,676] {logging_mixin.py:115} INFO - [2023-02-23 12:46:48,676] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-02-23 12:46:48,686] {processor.py:651} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-02-23 12:46:48,695] {logging_mixin.py:115} INFO - [2023-02-23 12:46:48,695] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:46:48,704] {logging_mixin.py:115} INFO - [2023-02-23 12:46:48,704] {dag.py:2927} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-02-23 12:46:48,711] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.037 seconds

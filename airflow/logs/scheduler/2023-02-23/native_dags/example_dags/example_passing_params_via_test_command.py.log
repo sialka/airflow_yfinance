@@ -107,3 +107,10 @@
 [2023-02-23 12:08:11,610] {logging_mixin.py:115} INFO - [2023-02-23 12:08:11,609] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-02-23 12:08:11,622] {logging_mixin.py:115} INFO - [2023-02-23 12:08:11,621] {dag.py:2927} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2023-02-23T20:07:00+00:00, run_after=2023-02-23T20:08:00+00:00
 [2023-02-23 12:08:11,631] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.041 seconds
+[2023-02-23 12:46:49,800] {processor.py:153} INFO - Started process (PID=52475) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2023-02-23 12:46:49,800] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2023-02-23 12:46:49,801] {logging_mixin.py:115} INFO - [2023-02-23 12:46:49,801] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2023-02-23 12:46:49,812] {processor.py:651} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2023-02-23 12:46:49,821] {logging_mixin.py:115} INFO - [2023-02-23 12:46:49,821] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:46:49,835] {logging_mixin.py:115} INFO - [2023-02-23 12:46:49,835] {dag.py:2927} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2023-02-23T20:45:00+00:00, run_after=2023-02-23T20:46:00+00:00
+[2023-02-23 12:46:49,842] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.044 seconds

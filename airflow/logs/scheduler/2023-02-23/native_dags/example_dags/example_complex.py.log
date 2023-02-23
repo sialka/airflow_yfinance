@@ -114,3 +114,17 @@
 [2023-02-23 12:08:14,577] {logging_mixin.py:115} INFO - [2023-02-23 12:08:14,577] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-02-23 12:08:14,585] {logging_mixin.py:115} INFO - [2023-02-23 12:08:14,585] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
 [2023-02-23 12:08:14,591] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.032 seconds
+[2023-02-23 12:46:31,014] {processor.py:153} INFO - Started process (PID=52426) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-02-23 12:46:31,015] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-02-23 12:46:31,015] {logging_mixin.py:115} INFO - [2023-02-23 12:46:31,015] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-02-23 12:46:31,020] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-02-23 12:46:31,030] {logging_mixin.py:115} INFO - [2023-02-23 12:46:31,030] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:46:31,038] {logging_mixin.py:115} INFO - [2023-02-23 12:46:31,038] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-02-23 12:46:31,044] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.032 seconds
+[2023-02-23 12:47:02,940] {processor.py:153} INFO - Started process (PID=52499) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-02-23 12:47:02,941] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-02-23 12:47:02,941] {logging_mixin.py:115} INFO - [2023-02-23 12:47:02,941] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-02-23 12:47:02,947] {processor.py:651} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py
+[2023-02-23 12:47:02,956] {logging_mixin.py:115} INFO - [2023-02-23 12:47:02,956] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:47:02,965] {logging_mixin.py:115} INFO - [2023-02-23 12:47:02,965] {dag.py:2927} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-02-23 12:47:02,972] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py took 0.033 seconds

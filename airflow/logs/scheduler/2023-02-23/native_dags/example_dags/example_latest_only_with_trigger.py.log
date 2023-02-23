@@ -107,3 +107,10 @@
 [2023-02-23 12:08:05,856] {logging_mixin.py:115} INFO - [2023-02-23 12:08:05,856] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-02-23 12:08:05,864] {logging_mixin.py:115} INFO - [2023-02-23 12:08:05,864] {dag.py:2927} INFO - Setting next_dagrun for latest_only_with_trigger to 2023-02-23T16:08:05.864800+00:00, run_after=2023-02-23T20:08:05.864800+00:00
 [2023-02-23 12:08:05,871] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.028 seconds
+[2023-02-23 12:46:46,142] {processor.py:153} INFO - Started process (PID=52466) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-02-23 12:46:46,143] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2023-02-23 12:46:46,143] {logging_mixin.py:115} INFO - [2023-02-23 12:46:46,143] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-02-23 12:46:46,146] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only_with_trigger']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2023-02-23 12:46:46,155] {logging_mixin.py:115} INFO - [2023-02-23 12:46:46,155] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:46:46,164] {logging_mixin.py:115} INFO - [2023-02-23 12:46:46,164] {dag.py:2927} INFO - Setting next_dagrun for latest_only_with_trigger to 2023-02-23T16:46:46.164747+00:00, run_after=2023-02-23T20:46:46.164747+00:00
+[2023-02-23 12:46:46,171] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.031 seconds

@@ -107,3 +107,10 @@
 [2023-02-23 12:08:28,983] {logging_mixin.py:115} INFO - [2023-02-23 12:08:28,983] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-02-23 12:08:28,992] {logging_mixin.py:115} INFO - [2023-02-23 12:08:28,992] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-02-22T00:00:00+00:00, run_after=2023-02-23T00:00:00+00:00
 [2023-02-23 12:08:28,998] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.031 seconds
+[2023-02-23 12:46:56,268] {processor.py:153} INFO - Started process (PID=52486) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-02-23 12:46:56,269] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2023-02-23 12:46:56,269] {logging_mixin.py:115} INFO - [2023-02-23 12:46:56,269] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-02-23 12:46:56,275] {processor.py:651} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py
+[2023-02-23 12:46:56,283] {logging_mixin.py:115} INFO - [2023-02-23 12:46:56,282] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:46:56,291] {logging_mixin.py:115} INFO - [2023-02-23 12:46:56,291] {dag.py:2927} INFO - Setting next_dagrun for example_bash_operator to 2023-02-22T00:00:00+00:00, run_after=2023-02-23T00:00:00+00:00
+[2023-02-23 12:46:56,299] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py took 0.032 seconds

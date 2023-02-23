@@ -107,3 +107,10 @@
 [2023-02-23 12:08:04,470] {logging_mixin.py:115} INFO - [2023-02-23 12:08:04,470] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-02-23 12:08:04,478] {logging_mixin.py:115} INFO - [2023-02-23 12:08:04,478] {dag.py:2927} INFO - Setting next_dagrun for example_task_group_decorator to 2023-02-22T20:08:04.478031+00:00, run_after=2023-02-23T20:08:04.478031+00:00
 [2023-02-23 12:08:04,485] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.052 seconds
+[2023-02-23 12:46:44,663] {processor.py:153} INFO - Started process (PID=52462) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-02-23 12:46:44,664] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2023-02-23 12:46:44,664] {logging_mixin.py:115} INFO - [2023-02-23 12:46:44,664] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-02-23 12:46:44,678] {processor.py:651} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-02-23 12:46:44,712] {logging_mixin.py:115} INFO - [2023-02-23 12:46:44,712] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:46:44,721] {logging_mixin.py:115} INFO - [2023-02-23 12:46:44,721] {dag.py:2927} INFO - Setting next_dagrun for example_task_group_decorator to 2023-02-22T20:46:44.721350+00:00, run_after=2023-02-23T20:46:44.721350+00:00
+[2023-02-23 12:46:44,730] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.068 seconds

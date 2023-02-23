@@ -107,3 +107,10 @@
 [2023-02-23 12:08:06,984] {logging_mixin.py:115} INFO - [2023-02-23 12:08:06,984] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-02-23 12:08:06,993] {logging_mixin.py:115} INFO - [2023-02-23 12:08:06,993] {dag.py:2927} INFO - Setting next_dagrun for example_nested_branch_dag to 2023-02-22T00:00:00+00:00, run_after=2023-02-23T00:00:00+00:00
 [2023-02-23 12:08:07,000] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.033 seconds
+[2023-02-23 12:46:46,418] {processor.py:153} INFO - Started process (PID=52467) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-02-23 12:46:46,418] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2023-02-23 12:46:46,419] {logging_mixin.py:115} INFO - [2023-02-23 12:46:46,419] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-02-23 12:46:46,425] {processor.py:651} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-02-23 12:46:46,436] {logging_mixin.py:115} INFO - [2023-02-23 12:46:46,436] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:46:46,448] {logging_mixin.py:115} INFO - [2023-02-23 12:46:46,448] {dag.py:2927} INFO - Setting next_dagrun for example_nested_branch_dag to 2023-02-22T00:00:00+00:00, run_after=2023-02-23T00:00:00+00:00
+[2023-02-23 12:46:46,458] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.042 seconds

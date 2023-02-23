@@ -114,3 +114,17 @@
 [2023-02-23 12:08:10,995] {logging_mixin.py:115} INFO - [2023-02-23 12:08:10,995] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-02-23 12:08:11,003] {logging_mixin.py:115} INFO - [2023-02-23 12:08:11,003] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-02-23T16:08:11.003703+00:00, run_after=2023-02-23T20:08:11.003703+00:00
 [2023-02-23 12:08:11,011] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.034 seconds
+[2023-02-23 12:46:29,633] {processor.py:153} INFO - Started process (PID=52424) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-02-23 12:46:29,634] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-02-23 12:46:29,635] {logging_mixin.py:115} INFO - [2023-02-23 12:46:29,635] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-02-23 12:46:29,638] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-02-23 12:46:29,648] {logging_mixin.py:115} INFO - [2023-02-23 12:46:29,648] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:46:29,661] {logging_mixin.py:115} INFO - [2023-02-23 12:46:29,661] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-02-23T16:46:29.661415+00:00, run_after=2023-02-23T20:46:29.661415+00:00
+[2023-02-23 12:46:29,670] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.038 seconds
+[2023-02-23 12:47:01,389] {processor.py:153} INFO - Started process (PID=52496) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-02-23 12:47:01,389] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-02-23 12:47:01,389] {logging_mixin.py:115} INFO - [2023-02-23 12:47:01,389] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-02-23 12:47:01,392] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py
+[2023-02-23 12:47:01,400] {logging_mixin.py:115} INFO - [2023-02-23 12:47:01,400] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:47:01,409] {logging_mixin.py:115} INFO - [2023-02-23 12:47:01,408] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-02-23T16:47:01.408838+00:00, run_after=2023-02-23T20:47:01.408838+00:00
+[2023-02-23 12:47:01,416] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py took 0.029 seconds

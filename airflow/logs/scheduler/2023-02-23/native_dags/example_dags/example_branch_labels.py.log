@@ -107,3 +107,10 @@
 [2023-02-23 12:08:21,248] {logging_mixin.py:115} INFO - [2023-02-23 12:08:21,248] {dag.py:2379} INFO - Sync 1 DAGs
 [2023-02-23 12:08:21,259] {logging_mixin.py:115} INFO - [2023-02-23 12:08:21,259] {dag.py:2927} INFO - Setting next_dagrun for example_branch_labels to 2023-02-22T00:00:00+00:00, run_after=2023-02-23T00:00:00+00:00
 [2023-02-23 12:08:21,265] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py took 0.033 seconds
+[2023-02-23 12:46:54,934] {processor.py:153} INFO - Started process (PID=52484) to work on /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-02-23 12:46:54,939] {processor.py:641} INFO - Processing file /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2023-02-23 12:46:54,939] {logging_mixin.py:115} INFO - [2023-02-23 12:46:54,939] {dagbag.py:507} INFO - Filling up the DagBag from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-02-23 12:46:54,945] {processor.py:651} INFO - DAG(s) dict_keys(['example_branch_labels']) retrieved from /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py
+[2023-02-23 12:46:54,956] {logging_mixin.py:115} INFO - [2023-02-23 12:46:54,956] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-02-23 12:46:54,967] {logging_mixin.py:115} INFO - [2023-02-23 12:46:54,967] {dag.py:2927} INFO - Setting next_dagrun for example_branch_labels to 2023-02-22T00:00:00+00:00, run_after=2023-02-23T00:00:00+00:00
+[2023-02-23 12:46:54,978] {processor.py:161} INFO - Processing /home/alura/Documents/Financeiro/venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py took 0.046 seconds
