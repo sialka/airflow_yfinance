@@ -113,3 +113,40 @@ broker_url = redis://0.0.0.0:6379/0
 # (linha 817)
 result_backend = db+postgresql://airflow_user:airflow_pass@localhost/airflow_db
 ```
+
+**Subindo as Instancias**
+
+
+Usaremos 5 Terminais, observação em todos os terminais habilitar o ambiente virtual (venv) e a variável de ambiente AIRFLOW_HOME.
+
+| Terminal 1 - Redis
+```bash
+# Na pasta do Redis-7.0.4
+$ redis-server
+```
+
+| Terminal 2 - Airflow Scheduler
+```bash
+$ airflow scheduler
+```
+
+| Terminal 3 - Airflow Scheduler
+```bash
+$ airflow webserver
+```
+
+Neste ponto, execute no navegador: localhost:8080 observe que as tarefas estão em filas mas não foram executadas.
+
+| Terminal 4 - Airflow Celery Flower
+```bash
+$ airflow celery flower
+```
+
+Neste ponto, execute no navegado em outra aba: localhost:5555 observe que ainda não temos um Broker para executar as tarefas
+
+| Terminal 5 - Airflow Scheduler
+```bash
+$ airflow celery worker
+```
+
+Agora sim as tarefas serão executadas
