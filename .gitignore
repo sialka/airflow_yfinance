@@ -1,3 +1,4 @@
 ambiente.sh
 /venv/*
 /airflow/logs/*
+/test/*

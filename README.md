@@ -3,6 +3,7 @@
 **Ideia do Projeto**
 
 Consultar a bolsa de valores usando a API yFinance do Python.
+No Airflow começamos com execuções de tarefas sequenciais, depois em paralelas.
 
 *Fonte: Alura*
 
@@ -38,7 +39,7 @@ $ python3 yfinanceTest2.py
 
 ### Fase 2
 
-Nesta fase as tarefas são executadas sequencialmente: 
+Nesta fase usamos o executor **SequentialExecutor**, onde as tarefas são executadas sequencialmente: 
 
 * busca os registro do ticker AAPL, 
 * depois GOOG, 
@@ -52,6 +53,8 @@ Airflow, executando a dag:
 * get_stocks.py
 
 ### Fase 3
+
+Nesta fase usamos o executor **LocalExecutor**, as tarefas são executados em paralelo, limitando-se aos recursos da máquina.
 
 Configurando o LocalExecutor
 
@@ -83,3 +86,30 @@ $ airflow standalone
 
 Execute novamente o get_stocks.py. Perceba que agora todas as stocks foram processados em paralelo.
 
+### Fase 4
+
+Nesta fase usaremos o executor **CeleryExecutor**, as tarefas serão executadas em filas. 
+As tarefas serão enviadas para os **Workers** (máquinas individuais) ou seja as tarefas serão dividas para várias máquinas,
+se uma falhar as outras continuam trabalhando até que termine a fila de tarefas.
+
+**Instalando o Redis:**
+
+```bash
+$ wget https://caelum-online-public.s3.amazonaws.com/2606-aprofundando-airflow-executor-celery/01/redis-7.0.4.tar.gz
+$ tar -xf redis-7.0.4.tar.gz
+$ cd redis-7.0.4/
+$ make
+$ sudo make install
+$ redis-server
+```
+
+**Configurando:**
+
+```python
+# File: airflow.cfg (Linha 24)
+executor = CeleryExecutor
+# (linha 810/)
+broker_url = redis://0.0.0.0:6379/0
+# (linha 817)
+result_backend = db+postgresql://airflow_user:airflow_pass@localhost/airflow_db
+```
